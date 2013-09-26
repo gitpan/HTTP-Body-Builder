@@ -1,5 +1,9 @@
 Revision history for Perl extension HTTP-Body-Builder
 
+0.02 2013-09-26T07:34:18Z
+
+    - fixed deps
+
 0.01 2013-09-21T06:52:02Z
 
     - original version

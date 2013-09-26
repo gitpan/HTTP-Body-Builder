@@ -42,11 +42,13 @@
       },
       "runtime" : {
          "requires" : {
+            "URI" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
+            "File::Temp" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -54,7 +56,7 @@
    "provides" : {
       "HTTP::Body::Builder" : {
          "file" : "lib/HTTP/Body/Builder.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "HTTP::Body::Builder::MultiPart" : {
          "file" : "lib/HTTP/Body/Builder/MultiPart.pm"
@@ -74,5 +76,5 @@
          "web" : "https://github.com/tokuhirom/HTTP-Body-Builder"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
