@@ -10,7 +10,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.6.7, CPAN::Meta::Converter version 2.132661'
+generated_by: 'Minilla/v0.7.0, CPAN::Meta::Converter version 2.132510'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,7 +28,7 @@ no_index:
 provides:
   HTTP::Body::Builder:
     file: lib/HTTP/Body/Builder.pm
-    version: 0.02
+    version: 0.03
   HTTP::Body::Builder::MultiPart:
     file: lib/HTTP/Body/Builder/MultiPart.pm
   HTTP::Body::Builder::UrlEncoded:
@@ -40,4 +40,6 @@ resources:
   bugtracker: https://github.com/tokuhirom/HTTP-Body-Builder/issues
   homepage: https://github.com/tokuhirom/HTTP-Body-Builder
   repository: git://github.com/tokuhirom/HTTP-Body-Builder.git
-version: 0.02
+version: 0.03
+x_contributors:
+  - 'Kenichi Ishigaki <ishigaki@cpan.org>'
